@@ -29,6 +29,8 @@ import { places } from '../places';
 
 // Import Work screenshots
 import lensWork from '../public/work/lens-screen.png';
+import w3wnWork from '../public/work/event-screen.png';
+import kasaWork from '../public/work/kasa-screen.png';
 
 const useEntries = () => {
   const [entries, setEntries] = useState<Entry[]>();
@@ -222,27 +224,46 @@ const Home: NextPage<HomeProps> = () => {
                 </a>
 
                 <MyLink href="https://app.radicle.network/seeds/willow.radicle.garden/rad:git:hnrkd3sxjb4aaswjx9jmcauk8431xwiobcr5y/remotes/hyn1zgj4qkrbuf8wp85ernkk7odifbiss8raqd7ce157xbqt69qqn6">
-                  Decentralized Social Media Dapp with Lens Protocol
+                  Decentralized Social Media Dapp - Lens Protocol
                 </MyLink>
               </ListItem>
+              <br />
               <ListItem>
-                <MyLink href="https://mirror.xyz/dhaiwat.eth/O5CK6Tjfv8uhl6FPbjT0yZ8LUwViDPWGYHdu9khRWpM">
-                  A guide to web3 for frontend devs
+                <a
+                  href="https://web3-rsvp-frontend-starter-gules.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={w3wnWork}
+                    alt="Web3 Dapp"
+                    width={500}
+                    height={350}
+                  />
+                </a>
+                <br />
+                <MyLink href="https://github.com/ToDestiny/web3RSVP-frontend-starter">
+                  Event Management and Creation Dapp -
+                  IPFS/TheGraph/Radicle/Infura/Polygon
                 </MyLink>
               </ListItem>
+              <br />
               <ListItem>
-                <MyLink href="https://web3cheatsheet.xyz">
-                  web3cheatsheet.xyz
-                </MyLink>
-              </ListItem>
-              <ListItem>
-                <MyLink href="https://github.com/dhaiwat10/create-web3-frontend">
-                  create-web3-frontend
-                </MyLink>
-              </ListItem>
-              <ListItem>
-                <MyLink href="https://github.com/dhaiwat10/react-link-preview">
-                  react-link-preview
+                <a
+                  href="https://react-frontend-chi-two.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={kasaWork}
+                    alt="React Frontend app"
+                    width={500}
+                    height={350}
+                  />
+                </a>
+                <br />
+                <MyLink href="https://github.com/ToDestiny/P11_ANTHONY_COLAS">
+                  React Frontend for a Real Estate company
                 </MyLink>
               </ListItem>
             </List>
