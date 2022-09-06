@@ -263,7 +263,7 @@ const Home: NextPage<HomeProps> = () => {
                 </a>
                 <br />
                 <MyLink href="https://github.com/ToDestiny/P11_ANTHONY_COLAS">
-                  React Frontend for a Real Estate company
+                  React Frontend for a Real Estate company - ReactJS
                 </MyLink>
               </ListItem>
             </List>
