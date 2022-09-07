@@ -17,7 +17,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import { Web3Modal } from '../components/Web3Modal';
-import { Entry } from './api/entries';
+/* import { Entry } from './api/entries'; */
 import { Account } from '../components/Account';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Photo } from '../components/Photo';
@@ -27,12 +27,15 @@ import { WallOfLove } from '../components/WallOfLove';
 import { useRouter } from 'next/router';
 import { places } from '../places';
 
+//Lens Protocol
+import { client, getProfile } from './api/api';
+
 // Import Work screenshots
 import lensWork from '../public/work/lens-screen.png';
 import w3wnWork from '../public/work/event-screen.png';
 import kasaWork from '../public/work/kasa-screen.png';
 
-const useEntries = () => {
+/* const useEntries = () => {
   const [entries, setEntries] = useState<Entry[]>();
 
   const fetchEntries = async () => {
@@ -48,10 +51,10 @@ const useEntries = () => {
     entries,
     fetchEntries,
   };
-};
+}; */
 
 interface HomeProps {
-  entries: Entry[];
+  //entries: Entry[];
 }
 
 const importAll = (r: any) => r.keys().map(r);
@@ -59,14 +62,14 @@ const importAll = (r: any) => r.keys().map(r);
 const Home: NextPage<HomeProps> = () => {
   const router = useRouter();
 
-  const { entries: data, fetchEntries } = useEntries();
+  //const { entries: data, fetchEntries } = useEntries();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [guestbookExpanded, setGuestbookExpanded] = useState(false);
   const [galleryExpanded, setGalleryExpanded] = useState(false);
 
-  const entriesToBeShown = useMemo(() => {
+  /*   const entriesToBeShown = useMemo(() => {
     return data?.reverse().slice(0, guestbookExpanded ? data.length : 10);
-  }, [data, guestbookExpanded]);
+  }, [data, guestbookExpanded]); */
 
   const collapseGuestbook = () => setGuestbookExpanded(false);
   const expandGuestbook = () => setGuestbookExpanded(true);
@@ -133,13 +136,30 @@ const Home: NextPage<HomeProps> = () => {
 
   const goToWallOfLove = () => router.push('/wall-of-love');
 
+  // lens Protocole
+  const [profile, setProfile] = useState();
+
+  useEffect(() => {
+    fetchProfile();
+  });
+
+  async function fetchProfile() {
+    try {
+      const response = await client.query(getProfile).toPromise();
+      console.log('PROFILE:', response);
+      setProfile(response.data.profile);
+    } catch (error) {
+      console.log('ERROR:', error);
+    }
+  }
+
   return (
     <Container py={20}>
-      <Web3Modal
+      {/*       <Web3Modal
         isOpen={isOpen}
         onClose={onClose}
         fetchEntries={fetchEntries}
-      />
+      /> */}
       <VStack spacing={8}>
         <Box
           textAlign="center"
@@ -200,6 +220,8 @@ const Home: NextPage<HomeProps> = () => {
             <br /> Speaks FLUENTLY: French, English, Chinese, Japanese
             <br /> Conversational in Spanish and Thai.
           </Text>
+
+          <div>{profile && <div>{profile['handle']}</div>}</div>
 
           <Divider />
 
