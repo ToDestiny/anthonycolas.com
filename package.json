@@ -16,12 +16,14 @@
     "@thirdweb-dev/sdk": "^2.3.14",
     "ethers": "^5.5.4",
     "framer-motion": "^5",
+    "graphql": "^16.6.0",
     "next": "^12.2.5",
     "react": "17.0.2",
     "react-blockies": "^1.4.1",
     "react-confetti": "^6.0.1",
     "react-dom": "17.0.2",
     "react-tweet-embed": "^2.0.0",
+    "urql": "^3.0.3",
     "wagmi": "^0.2.8"
   },
   "devDependencies": {
