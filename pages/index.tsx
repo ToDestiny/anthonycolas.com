@@ -27,8 +27,7 @@ import { WallOfLove } from '../components/WallOfLove';
 import { useRouter } from 'next/router';
 import { places } from '../places';
 
-//Lens Protocol
-import { client, getProfile } from './api/api';
+import { LensProtocole } from '../components/LensCard';
 
 // Import Work screenshots
 import lensWork from '../public/work/lens-screen.png';
@@ -136,23 +135,6 @@ const Home: NextPage<HomeProps> = () => {
 
   const goToWallOfLove = () => router.push('/wall-of-love');
 
-  // lens Protocole
-  const [profile, setProfile] = useState();
-
-  useEffect(() => {
-    fetchProfile();
-  });
-
-  async function fetchProfile() {
-    try {
-      const response = await client.query(getProfile).toPromise();
-      console.log('PROFILE:', response);
-      setProfile(response.data.profile);
-    } catch (error) {
-      console.log('ERROR:', error);
-    }
-  }
-
   return (
     <Container py={20}>
       {/*       <Web3Modal
@@ -221,7 +203,7 @@ const Home: NextPage<HomeProps> = () => {
             <br /> Conversational in Spanish and Thai.
           </Text>
 
-          <div>{profile && <div>{profile['handle']}</div>}</div>
+          <LensProtocole />
 
           <Divider />
 
