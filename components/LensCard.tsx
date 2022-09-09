@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { client, getProfile } from '../pages/api/api';
-import { Box, Container, Image } from '@chakra-ui/react';
+import { Box, Image } from '@chakra-ui/react';
+import styled from '@emotion/styled';
+
+const LensContainer = styled.a``;
 
 export const LensProtocole = () => {
   const [profile, setProfile] = useState();
