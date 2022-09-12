@@ -34,8 +34,8 @@ export const LensProtocole = () => {
       justifyContent="space-between"
     >
       <Image
-        height={150}
-        width={150}
+        height={200}
+        width={200}
         src={profile && profile.picture.original.url}
         borderRadius="full"
         boxSize="150px"
