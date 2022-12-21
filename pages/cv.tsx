@@ -88,7 +88,9 @@ const CVPage: NextPage = () => {
             <MyLink href="https://42.fr/">
               42.fr - Learn how to code and focus on C language
             </MyLink>
-            : 42 is a future-proof computer science training to educate the next
+            :
+            <br />
+            42 is a future-proof computer science training to educate the next
             generation of software engineers. The 42 program takes a
             project-based approach to progress and is designed to develop
             technical and people skills that match the expectations of the labor
@@ -111,8 +113,14 @@ const CVPage: NextPage = () => {
             <MyLink href="https://lens-api-starter-seven.vercel.app/">
               Decentralized Social Media Dapp - Lens Protocol, React, Next.js
             </MyLink>
-            : The interface in React and Lens Protocol, a decentralized social
+            :
+            <br />
+            The interface in React and Lens Protocol, a decentralized social
             media in web3.
+            <br />
+            <MyLink href="https://app.radicle.network/seeds/willow.radicle.garden/rad:git:hnrkd3sxjb4aaswjx9jmcauk8431xwiobcr5y/remotes/hyn1zgj4qkrbuf8wp85ernkk7odifbiss8raqd7ce157xbqt69qqn6">
+              Radicle
+            </MyLink>
           </ListItem>
 
           <ListItem>
@@ -120,15 +128,27 @@ const CVPage: NextPage = () => {
               Event Management and Creation Dapp -
               IPFS/TheGraph/Radicle/Infura/Polygon, React, Next.js
             </MyLink>
-            : An Event manager where you can RSVP and collect pre-ordered funds
+            :
+            <br />
+            An Event manager where you can RSVP and collect pre-ordered funds
             for participants.
+            <br />
+            <MyLink href="https://github.com/ToDestiny/web3RSVP-frontend-starter">
+              Github
+            </MyLink>
           </ListItem>
 
           <ListItem>
-            <MyLink href="https://github.com/ToDestiny/P11_ANTHONY_COLAS">
+            <MyLink href="https://react-frontend-chi-two.vercel.app/">
               React Frontend for a Real Estate company - ReactJS, Vercel
             </MyLink>
-            : Simple project for a Real Estate portfolio.
+            :
+            <br />
+            Simple project for a Real Estate portfolio.
+            <br />
+            <MyLink href="https://github.com/ToDestiny/P11_ANTHONY_COLAS">
+              Github
+            </MyLink>
           </ListItem>
         </UnorderedList>
       </VStack>
