@@ -70,7 +70,7 @@ const CVPage: NextPage = () => {
         <UnorderedList>
           <ListItem>
             <MyLink href="https://openclassrooms.com/fr/paths/314-developpeur-front-end">
-              OpenClassroom - Front-End Developer
+              OpenClassroom - Front-End Developer, 12 months
             </MyLink>
             :
             <br />- Create dynamic web applications with Javascript and React;
@@ -86,7 +86,7 @@ const CVPage: NextPage = () => {
 
           <ListItem>
             <MyLink href="https://42.fr/">
-              42.fr - Learn how to code and focus on C language
+              42.fr - Learn how to code and focus on C language, 12 months
             </MyLink>
             :
             <br />
