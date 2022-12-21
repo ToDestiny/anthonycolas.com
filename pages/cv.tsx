@@ -17,11 +17,12 @@ const CVPage: NextPage = () => {
       <VStack textAlign="left" alignItems="start" spacing="4">
         <Heading>Anthony COLAS</Heading>
         <Text>
-          21 year old devrel and engineer.
+          35 year old Front-End Developer
           <br />
           Currently looking for a Web3/React Full Remote Job
           <br />
           Previously worked at :
+          <br />
           <br />
           - Myth.gg as CEO for 3 years
           <br />
