@@ -21,7 +21,7 @@ export const places: Place[] = [
     flag: '🇦🇺',
   },
   {
-    name: 'Bangkok, Phuket',
+    name: 'Bangkok',
     flag: '🇹🇭',
   },
   {
@@ -30,6 +30,10 @@ export const places: Place[] = [
   },
   {
     name: 'Asian Visited Countries',
-    flag: '🇲🇾',
+    flag: '🇲🇾 🇱🇦 🇵🇭 🇹🇭 🇨🇳 🇰🇭 🇯🇵',
+  },
+  {
+    name: 'Oceania Visited Countries',
+    flag: '🇦🇺',
   },
 ];
