@@ -65,7 +65,7 @@ const CVPage: NextPage = () => {
 
         <Divider />
 
-        <Heading size="lg">Development</Heading>
+        <Heading size="lg">Education</Heading>
 
         <UnorderedList>
           <ListItem>
@@ -101,7 +101,7 @@ const CVPage: NextPage = () => {
 
         <Divider />
 
-        <Heading size="lg">Development work</Heading>
+        <Heading size="lg">Development Work</Heading>
 
         <Text>
           I have been working with React and Web3 since a year. I&apos;m
