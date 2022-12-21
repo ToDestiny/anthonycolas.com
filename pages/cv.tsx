@@ -17,23 +17,30 @@ const CVPage: NextPage = () => {
       <VStack textAlign="left" alignItems="start" spacing="4">
         <Heading>Anthony COLAS</Heading>
         <Text>
-          21 year old devrel and engineer. Currently working as a devrel at{' '}
-          <MyLink href="https://ankr.com">Ankr</MyLink>. Prev frontend engineer
-          at <MyLink href="https://mazury.xyz">Mazury</MyLink>.
+          21 year old devrel and engineer. Currently looking for a Web3/React
+          Full Remote Job
           <br />
-          <MyLink href="https://twitter.com/developer_dao">
-            Developer DAO
+          Previously worked at{' '}
+          <MyLink href="https://www.nomurakougei.co.jp/english/index.html">
+            Nomura Kogei
           </MyLink>{' '}
-          core contributor
+          as an International Business Manager
+          <br />
+          Shanghai, China
         </Text>
 
         <VStack textAlign="left" alignItems="start">
-          <MyLink href="https://github.com/dhaiwat10">GitHub</MyLink>
-          <MyLink href="https://twitter.com/dhaiwat10">Twitter</MyLink>
-          <MyLink href="https://dhaiwat.xyz">
-            Personal website - dhaiwat.xyz
+          <MyLink href="https://github.com/ToDestiny">GitHub</MyLink>
+          <MyLink href="https://twitter.com/ToDestiny_">Twitter</MyLink>
+          <MyLink href="https://anthonycolas.com">
+            Personal website - anthonycolas.com
           </MyLink>
         </VStack>
+        <Text>
+          anthonycolas@skiff.com
+          <br />
+          +33 7 8266 9809
+        </Text>
 
         <Divider />
 
