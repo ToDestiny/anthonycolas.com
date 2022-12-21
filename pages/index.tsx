@@ -27,7 +27,7 @@ import { WallOfLove } from '../components/WallOfLove';
 import { useRouter } from 'next/router';
 import { places } from '../places';
 
-import { LensProtocole } from '../components/LensCard';
+// import { LensProtocole } from '../components/LensCard';
 
 // Import Work screenshots
 import lensWork from '../public/work/lens-screen.png';
@@ -196,14 +196,21 @@ const Home: NextPage<HomeProps> = () => {
               Blog
             </Button>
           </HStack>
+          <Button
+            variant="outline"
+            as="a"
+            href="https://anthonycolas.com/cv"
+            target="_blank"
+          >
+            Resume
+          </Button>
           <Text>
             Looking for a position in Web3 or React Developer
-            <br /> Very flexible
+            <br /> Very flexible, I can move to a different country within two
+            weeks.
             <br /> Speaks FLUENTLY: French, English, Chinese, Japanese
             <br /> Conversational in Spanish and Thai.
           </Text>
-
-          <LensProtocole />
 
           <Divider />
 
