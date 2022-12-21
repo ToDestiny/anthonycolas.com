@@ -20,11 +20,19 @@ const CVPage: NextPage = () => {
           21 year old devrel and engineer. Currently looking for a Web3/React
           Full Remote Job
           <br />
-          Previously worked at{' '}
+          Previously worked at :
+          <br />
+          - Myth.gg as CEO for 3 years
+          <br />
+          We produced websites and merchandising for Esport most famous teams in
+          Europe. Raised 250k€ pre-Covid. Technology: Vue.js, Node.js
+          <br />
+          Paris, France
+          <br />
           <MyLink href="https://www.nomurakougei.co.jp/english/index.html">
             Nomura Kogei
           </MyLink>{' '}
-          as an International Business Manager
+          as International Business Manager
           <br />
           Shanghai, China
         </Text>
@@ -45,13 +53,14 @@ const CVPage: NextPage = () => {
         <Divider />
 
         <Text>
-          I have a very technical background but creating content has always
-          been a crucial part of my career &amp; work. I have always created
-          content to supplement my dev work and that&apos;s why it&apos;s very
-          natural to me by now. I basically got all of my gigs because of the
-          technical content I created around React and web3. This includes my
-          articles, my tweets and my talks.
-          <br />
+          After working more than 10 years in Asia/Oceania as an International
+          Business Manager, I decided to switch field I have a very technical
+          background but creating content has always been a crucial part of my
+          career work. I have always created content to supplement my dev work
+          and that&apos;s why its very natural to me by now. I basically got all
+          of my gigs because of the technical content I created around React and
+          web3. This includes my articles, my tweets and my talks.
+          <br /> &amp; &apos;
         </Text>
 
         <Text>
