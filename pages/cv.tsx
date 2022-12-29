@@ -17,17 +17,20 @@ const CVPage: NextPage = () => {
       <VStack textAlign="left" alignItems="start" spacing="4">
         <Heading>Anthony COLAS</Heading>
         <Text>
-          35 year old Front-End Developer
+          Front-End Developer and Web3 passionate!
           <br />
           Currently looking for a Web3/React Full Remote Job
           <br />
           Previously worked at :
           <br />
           <br />
-          - Myth.gg as CEO for 3 years
+          - Myth.gg as CEO/Developer for 3 years
           <br />
           We produced websites and merchandising for Esport most famous teams in
-          Europe. Raised 250k€ pre-Covid. Technology: Vue.js, Node.js
+          Europe. Raised 250k€ pre-Covid.
+          <br />
+          E-commerce with 3D model for Esport team shirts. Technology: Vue.js,
+          Node.js, Three.js
           <br />
           Paris, France
           <br />
@@ -60,8 +63,8 @@ const CVPage: NextPage = () => {
           Business Manager, I decided to switch field. I went to 42 school in
           Paris where I learned C for over a year. After 3 years of launching my
           own startup, Myth.gg, I decided to focus on learning React and Web3
-          for a year with OpenClassroom. Right now I&apos;m looking for a job as
-          a React Frontend job in Web3.
+          for a year with OpenClassrooms. Right now I&apos;m looking for a job
+          as a React Frontend job in Web3.
         </Text>
 
         <Divider />
@@ -71,7 +74,7 @@ const CVPage: NextPage = () => {
         <UnorderedList>
           <ListItem>
             <MyLink href="https://openclassrooms.com/fr/paths/314-developpeur-front-end">
-              OpenClassroom - Front-End Developer, 12 months
+              OpenClassrooms - Front-End Developer, 12 months
             </MyLink>
             :
             <br />- Create dynamic web applications with Javascript and React;
