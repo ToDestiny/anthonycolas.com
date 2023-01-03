@@ -59,12 +59,11 @@ const CVPage: NextPage = () => {
         <Divider />
 
         <Text>
-          After working more than 10 years in Asia/Oceania as an International
-          Business Manager, I decided to switch field. I went to 42 school in
-          Paris where I learned C for over a year. After 3 years of launching my
-          own startup, Myth.gg, I decided to focus on learning React and Web3
-          for a year with OpenClassrooms. Right now I&apos;m looking for a job
-          as a React Frontend job in Web3.
+          With my expertise with React, 8 years of work experience in Asia and
+          my ability to find solutions to any kind of problems, you have in
+          front of you someone who can help you build and ship fast projects. I
+          am passionate about web3 and my goal is to leverage this technology to
+          create the best possible customer experience in everything I do..
         </Text>
 
         <Divider />
