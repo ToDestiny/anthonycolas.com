@@ -147,7 +147,8 @@ const CVPage: NextPage = () => {
             </MyLink>
             :
             <br />
-            Simple project for a Real Estate portfolio.
+            Created from scratch a full responsive React application. <br />
+            Optimized home and landing pages.
             <br />
             <MyLink href="https://github.com/ToDestiny/P11_ANTHONY_COLAS">
               Github
