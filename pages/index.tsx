@@ -182,7 +182,7 @@ const Home: NextPage<HomeProps> = () => {
             <Button
               variant="outline"
               as="a"
-              href="https://app.radicle.network/todestiny.eth"
+              href="https://app.radicle.xyz/0x1b0e00833b273fdd22200feafa196ff1b879972b"
               target="_blank"
             >
               Radicle
