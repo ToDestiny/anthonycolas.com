@@ -17,7 +17,7 @@ const CVPage: NextPage = () => {
       <VStack textAlign="left" alignItems="start" spacing="4">
         <Heading>Anthony COLAS</Heading>
         <Text>
-          Front-End Developer and Web3 passionate!
+          React/TypeScript Developer Web3 MacGyver
           <br />
           Currently looking for a Web3/React Full Remote Job
           <br />
