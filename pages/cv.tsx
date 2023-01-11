@@ -53,7 +53,7 @@ const CVPage: NextPage = () => {
         <Text>
           anthonycolas@skiff.com
           <br />
-          +33 7 8266 9809
+          +33 7 82 66 98 09
         </Text>
 
         <Divider />
@@ -107,8 +107,8 @@ const CVPage: NextPage = () => {
         <Heading size="lg">Development Work</Heading>
 
         <Text>
-          I have been working with React and Web3 since a year. I&apos;m
-          particularly proud of these projects:
+          Since a year ago, I have been using Web3 and React. I&apos;m
+          especially pleased with the following projects:
         </Text>
 
         <UnorderedList>
