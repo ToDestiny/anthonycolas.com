@@ -199,8 +199,9 @@ const Home: NextPage<HomeProps> = () => {
           <Button
             variant="outline"
             as="a"
-            href="https://anthonycolas.com/cv"
+            href="/"
             target="_blank"
+            download="public/Junior ReactJS Software Engineer.pdf"
           >
             Resume
           </Button>
