@@ -199,8 +199,7 @@ const Home: NextPage<HomeProps> = () => {
           <Button
             variant="outline"
             as="a"
-            href="/"
-            target="_blank"
+            target="public/Junior ReactJS Software Engineer.pdf"
             download="Junior ReactJS Software Engineer.pdf"
           >
             Resume
