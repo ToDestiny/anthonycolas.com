@@ -234,7 +234,7 @@ const Home: NextPage<HomeProps> = () => {
                   />
                 </a>
 
-                <MyLink href="https://app.radicle.network/seeds/willow.radicle.garden/rad:git:hnrkd3sxjb4aaswjx9jmcauk8431xwiobcr5y/remotes/hyn1zgj4qkrbuf8wp85ernkk7odifbiss8raqd7ce157xbqt69qqn6">
+                <MyLink href="https://github.com/ToDestiny/lens-api-starter">
                   Decentralized Social Media Dapp - Lens Protocol
                 </MyLink>
               </ListItem>
