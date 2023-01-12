@@ -201,7 +201,7 @@ const Home: NextPage<HomeProps> = () => {
             as="a"
             href="/"
             target="_blank"
-            download="public/Junior ReactJS Software Engineer.pdf"
+            download="Junior ReactJS Software Engineer.pdf"
           >
             Resume
           </Button>
