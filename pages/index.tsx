@@ -199,10 +199,18 @@ const Home: NextPage<HomeProps> = () => {
           <Button
             variant="outline"
             as="a"
-            href="../public/work/resume-anthony-colas.jpg"
+            href="https://drive.google.com/file/d/1ZF5CNa8df72tebYPqIMAaF89HMy0jJQe/view?usp=share_link"
             download="Anthony COLAS - Junior ReactJS Software Engineer.pdf"
           >
-            Resume
+            Resume FR
+          </Button>
+          <Button
+            variant="outline"
+            as="a"
+            href="https://drive.google.com/file/d/1fcHvynwGsXMf3khGyGOMpOycR4EmCCf4/view?usp=share_link"
+            download="Anthony COLAS - Junior ReactJS Software Engineer.pdf"
+          >
+            Resume ENG
           </Button>
           <Text>
             Looking for a position in Web3 or React Developer
