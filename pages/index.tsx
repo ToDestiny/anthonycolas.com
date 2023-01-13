@@ -33,7 +33,7 @@ import { places } from '../places';
 import lensWork from '../public/work/lens-screen.png';
 import w3wnWork from '../public/work/event-screen.png';
 import kasaWork from '../public/work/kasa-screen.png';
-//import Resume from '../public/Junior ReactJS Software Engineer.pdf';
+import Resume from '../public/Junior ReactJS Software Engineer.pdf';
 
 /* const useEntries = () => {
   const [entries, setEntries] = useState<Entry[]>();
@@ -200,7 +200,7 @@ const Home: NextPage<HomeProps> = () => {
           <Button
             variant="outline"
             as="a"
-            href="/next/static/media/Junior ReactJS Software Engineer.pdf"
+            href={Resume}
             download="Anthony COLAS - Junior ReactJS Software Engineer.pdf"
           >
             Resume
