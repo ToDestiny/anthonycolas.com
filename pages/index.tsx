@@ -200,7 +200,7 @@ const Home: NextPage<HomeProps> = () => {
           <Button
             variant="outline"
             as="a"
-            href="../public/Junior ReactJS Software Engineer.pdf"
+            href="/next/static/media/Junior ReactJS Software Engineer.pdf"
             download="Anthony COLAS - Junior ReactJS Software Engineer.pdf"
           >
             Resume
