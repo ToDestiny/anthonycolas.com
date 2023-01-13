@@ -359,9 +359,9 @@ const Home: NextPage<HomeProps> = () => {
         <Divider />
 
         <Text>
-          This site is{' '}
+          This website&apos;s{' '}
           <MyLink href="https://github.com/ToDestiny/anthonycolas.com">
-            open source
+            Github
           </MyLink>
         </Text>
       </VStack>
