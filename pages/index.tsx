@@ -17,7 +17,6 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import { Web3Modal } from '../components/Web3Modal';
-/* import { Entry } from './api/entries'; */
 import { Account } from '../components/Account';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Photo } from '../components/Photo';
@@ -33,6 +32,7 @@ import { places } from '../places';
 import lensWork from '../public/work/lens-screen.png';
 import w3wnWork from '../public/work/event-screen.png';
 import kasaWork from '../public/work/kasa-screen.png';
+import CALoanWork from '../public/work/caloan-screen.png';
 
 /* const useEntries = () => {
   const [entries, setEntries] = useState<Entry[]>();
@@ -269,6 +269,26 @@ const Home: NextPage<HomeProps> = () => {
               <br />
               <ListItem>
                 <a
+                  href="https://underwriter-calculator-v2.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={CALoanWork}
+                    alt="TypeScript Frontend app"
+                    width={500}
+                    height={350}
+                  />
+                </a>
+                <br />
+                <MyLink href="https://github.com/ToDestiny/underwriter-calculator-v2">
+                  TypeScript Frontend for a Canadian Loan company -
+                  TypeScriptJS/MaterialUI/Netlify
+                </MyLink>
+              </ListItem>
+              <br />
+              <ListItem>
+                <a
                   href="https://react-frontend-chi-two.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -290,34 +310,6 @@ const Home: NextPage<HomeProps> = () => {
         </Box>
 
         <Divider />
-        {/* 
-        <Box textAlign="center">
-          <Heading size="lg">📓 Guestbook entries</Heading>
-          <Heading as="h2" size="xs">
-            These kind people said gm.
-          </Heading>
-        </Box>
-        <Button onClick={onOpen} backgroundColor="teal.900">
-          Sign my guestbook! ✍️
-        </Button>
-        <VStack
-          width={{
-            sm: '100%',
-            md: '50%',
-            lg: '33%',
-            xl: '25%',
-          }}
-        >
-          {entriesToBeShown?.map((entry) => (
-            <Account key={entry.address} address={entry.address} />
-          ))}
-        </VStack>
-        {guestbookExpanded ? (
-          <Button onClick={collapseGuestbook}>Collapse</Button>
-        ) : (
-          <Button onClick={expandGuestbook}>Expand Guestbook</Button>
-        )}
-        <Divider /> */}
 
         <Text>
           Travelling the world is a dream of mine. I love meeting people from
