@@ -34,41 +34,14 @@ import w3wnWork from '../public/work/event-screen.png';
 import kasaWork from '../public/work/kasa-screen.png';
 import CALoanWork from '../public/work/caloan-screen.png';
 
-/* const useEntries = () => {
-  const [entries, setEntries] = useState<Entry[]>();
-
-  const fetchEntries = async () => {
-    const data = await fetch('/api/entries').then((r) => r.json());
-    setEntries(data.entries as Entry[]);
-  };
-
-  useEffect(() => {
-    fetchEntries();
-  }, []);
-
-  return {
-    entries,
-    fetchEntries,
-  };
-}; */
-
-interface HomeProps {
-  //entries: Entry[];
-}
-
 const importAll = (r: any) => r.keys().map(r);
 
 const Home: NextPage<HomeProps> = () => {
   const router = useRouter();
 
-  //const { entries: data, fetchEntries } = useEntries();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [guestbookExpanded, setGuestbookExpanded] = useState(false);
   const [galleryExpanded, setGalleryExpanded] = useState(false);
-
-  /*   const entriesToBeShown = useMemo(() => {
-    return data?.reverse().slice(0, guestbookExpanded ? data.length : 10);
-  }, [data, guestbookExpanded]); */
 
   const collapseGuestbook = () => setGuestbookExpanded(false);
   const expandGuestbook = () => setGuestbookExpanded(true);
@@ -137,11 +110,6 @@ const Home: NextPage<HomeProps> = () => {
 
   return (
     <Container py={20}>
-      {/*       <Web3Modal
-        isOpen={isOpen}
-        onClose={onClose}
-        fetchEntries={fetchEntries}
-      /> */}
       <VStack spacing={8}>
         <Box
           textAlign="center"
@@ -199,16 +167,16 @@ const Home: NextPage<HomeProps> = () => {
           <Button
             variant="outline"
             as="a"
-            href="https://drive.google.com/file/d/1ZF5CNa8df72tebYPqIMAaF89HMy0jJQe/view?usp=share_link"
-            download="Anthony COLAS - Junior ReactJS Software Engineer.pdf"
+            href="https://drive.google.com/file/d/1_sFPx9LxvUNEBgvwdJw010tb8K2HUYRm/view?usp=sharing"
+            download="Anthony COLAS - Développeur Frontend React/TypeScriptReactJS.pdf"
           >
             Resume FR
           </Button>
           <Button
             variant="outline"
             as="a"
-            href="https://drive.google.com/file/d/1fcHvynwGsXMf3khGyGOMpOycR4EmCCf4/view?usp=share_link"
-            download="Anthony COLAS - Junior ReactJS Software Engineer.pdf"
+            href="https://drive.google.com/file/d/1fImFxMy9LvVQkCavWMfpWAgKrlxxyIy3/view?usp=sharing"
+            download="Anthony COLAS - React/TypeScript Frontend Developer.pdf"
           >
             Resume ENG
           </Button>
