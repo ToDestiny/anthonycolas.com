@@ -36,7 +36,7 @@ import CALoanWork from '../public/work/caloan-screen.png';
 
 const importAll = (r: any) => r.keys().map(r);
 
-const Home: NextPage<HomeProps> = () => {
+const Home: any = () => {
   const router = useRouter();
 
   const { isOpen, onOpen, onClose } = useDisclosure();
