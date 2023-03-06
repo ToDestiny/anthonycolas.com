@@ -32,7 +32,7 @@ import { places } from '../places';
 import lensWork from '../public/work/lens-screen.png';
 import w3wnWork from '../public/work/event-screen.png';
 import kasaWork from '../public/work/kasa-screen.png';
-import CALoanWork from '../public/work/caloan-screen.png';
+import moneyWork from '../public/work/moneygpt-screen.png';
 
 const importAll = (r: any) => r.keys().map(r);
 
@@ -196,6 +196,27 @@ const Home: any = () => {
             </Heading>
             <List>
               <br />
+
+              <ListItem>
+                <a
+                  href="https://moneypenny-gpt.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={moneyWork}
+                    alt="TypeScript Frontend app"
+                    width={500}
+                    height={350}
+                  />
+                </a>
+                <br />
+                <MyLink href="https://github.com/ToDestiny/MoneypennyGPT">
+                  Reproduction of ChatGPT -
+                  TypeScriptJS/Next.js/Firebase/ChatGPT API
+                </MyLink>
+              </ListItem>
+              <br />
               <ListItem>
                 <a
                   href="https://lens-api-starter-seven.vercel.app/"
@@ -232,26 +253,6 @@ const Home: any = () => {
                 <MyLink href="https://github.com/ToDestiny/web3RSVP-frontend-starter">
                   Event Management and Creation Dapp -
                   IPFS/TheGraph/Radicle/Infura/Polygon
-                </MyLink>
-              </ListItem>
-              <br />
-              <ListItem>
-                <a
-                  href="https://underwriter-calculator-v2.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src={CALoanWork}
-                    alt="TypeScript Frontend app"
-                    width={500}
-                    height={350}
-                  />
-                </a>
-                <br />
-                <MyLink href="https://github.com/ToDestiny/underwriter-calculator-v2">
-                  TypeScript Frontend for a Canadian Loan company -
-                  TypeScriptJS/MaterialUI/Netlify
                 </MyLink>
               </ListItem>
               <br />
